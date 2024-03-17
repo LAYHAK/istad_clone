@@ -51,13 +51,13 @@ const NavbarComponent = () => {
                              href="/course">Course</Navbar.Link>
                 <Navbar.Link className="text-lg text-blue-50 font-extrabold text-center lg:text-start"
                              theme={customLink}
-                             href="/it_news">IT News</Navbar.Link>
+                             href="/it-news">IT News</Navbar.Link>
                 <Navbar.Link className="text-lg text-blue-50 font-extrabold text-center lg:text-start"
                              theme={customLink}
-                             href="#">Job Opportunity</Navbar.Link>
+                             href="/job-opportunity">Job Opportunity</Navbar.Link>
                 <Navbar.Link className="text-lg text-blue-50 font-extrabold text-center lg:text-start"
                              theme={customLink}
-                             href="#">About Us</Navbar.Link>
+                             href="/about-us">About Us</Navbar.Link>
             </Navbar.Collapse>
         </Navbar>
     );

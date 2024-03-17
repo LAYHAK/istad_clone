@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4b32f79b-9216-42fd-8395-069b0b547711" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/CardComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/cardComponent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/Course.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/course.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/navbarComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/navbarComponent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/slide.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/slide.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="CSS File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -57,7 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/heng.layhak/Documents/React/istad_clone/public/images/slide",
+    "last_opened_file_path": "/Users/heng.layhak/Documents/React/istad_clone/app/job",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -76,6 +72,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/job" />
       <recent name="$PROJECT_DIR$/public/images/slide" />
       <recent name="$PROJECT_DIR$/public/images/course" />
     </key>
@@ -113,7 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710605724138</updated>
       <workItem from="1710605727039" duration="800000" />
-      <workItem from="1710606667450" duration="48868000" />
+      <workItem from="1710606667450" duration="51718000" />
     </task>
     <servers />
   </component>
