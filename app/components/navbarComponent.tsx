@@ -38,20 +38,20 @@ const NavbarComponent = () => {
             </Navbar.Brand>
             <Navbar.Toggle theme={toggle}/>
             <Navbar.Collapse theme={collapse}>
-                <Navbar.Link href="#" className="text-lg text-blue-50 font-extrabold text-center lg:text-start"
+                <Navbar.Link href="/" className="text-lg text-blue-50 font-extrabold text-center lg:text-start"
                              theme={customLink}>
                     Home
                 </Navbar.Link>
                 <Navbar.Link as={Link} className="text-lg text-blue-50 font-extrabold text-center lg:text-start "
-                             theme={customLink} href="#">
+                             theme={customLink} href="/enroll">
                     Enroll
                 </Navbar.Link>
                 <Navbar.Link className="text-lg text-blue-50 font-extrabold text-center lg:text-start "
                              theme={customLink}
-                             href="#">Course</Navbar.Link>
+                             href="/course">Course</Navbar.Link>
                 <Navbar.Link className="text-lg text-blue-50 font-extrabold text-center lg:text-start"
                              theme={customLink}
-                             href="#">IT News</Navbar.Link>
+                             href="/it_news">IT News</Navbar.Link>
                 <Navbar.Link className="text-lg text-blue-50 font-extrabold text-center lg:text-start"
                              theme={customLink}
                              href="#">Job Opportunity</Navbar.Link>

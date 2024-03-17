@@ -1,5 +1,5 @@
 'use client';
-import {FaLayerGroup, FaTags} from "react-icons/fa";
+import {FaLayerGroup} from "react-icons/fa";
 import {Card} from 'flowbite-react';
 import {IoIosTime} from "react-icons/io";
 
@@ -33,26 +33,4 @@ export default function CardComponent({card}) {
             </div>
         </Card>
     );
-}
-
-export function CardCarousel() {
-    return (
-        <Card
-            className="w-[278px] mb-5"
-            imgAlt="Meaningful alt text for an image that is not purely decorative"
-        >
-            <img src="https://api.istad.co/media/image/c8c41751-3bc0-4f07-9658-7d95efbae692.png" alt=""/>
-            <div className='flex justify-between'>
-                <div>
-                    <FaTags className="text-blue-800 inline"/><span>blog</span>
-                </div>
-                <div>
-                    24/12/2023
-                </div>
-            </div>
-            <p className=" text-gray-700 dark:text-gray-400 font-bold">
-                Senior Spring Web Developer
-            </p>
-        </Card>
-    )
 }

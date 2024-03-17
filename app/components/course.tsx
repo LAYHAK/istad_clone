@@ -1,5 +1,5 @@
 import React from 'react';
-import CardComponent from "@/app/components/CardComponent";
+import CardComponent from "@/app/components/cardComponent";
 
 const cards = [
     {
@@ -46,7 +46,7 @@ const cards = [
 const Course = () => {
     return (
         <section className='container mx-auto my-5'>
-            <h1 className="text-gray-900 font-extrabold text-5xl my-3 mx-20"> Course</h1>
+            <h1 className="text-gray-900 font-extrabold text-3xl my-3 mx-20"> Course</h1>
             <div className='grid grid-cols-1 md:grid-cols-2  gap-3 mx-20'>
                 {cards.map((card, index) => (
                     <CardComponent key={index} card={card}/>

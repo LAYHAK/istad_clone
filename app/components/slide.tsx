@@ -1,5 +1,5 @@
 'use client'
-import {Image, Paper, rem, Text, Title, useMantineTheme} from '@mantine/core';
+import {Image, Paper, rem, Text, Title} from '@mantine/core';
 import {Carousel} from '@mantine/carousel';
 import {FaArrowLeft, FaArrowRight} from "react-icons/fa";
 import classes from "../css/slide.module.css";
@@ -68,18 +68,14 @@ function Card({img, title, desc}: CardProps) {
 }
 
 const Slide = () => {
-    const theme = useMantineTheme();
-
     const autoplay = useRef(Autoplay({delay: 5000}));
     const slides = data.map((item) => {
         return (
             <Carousel.Slide key={item.title}>
-                {/* eslint-disable-next-line jsx-a11y/alt-text,react/no-children-prop */}
                 <Card {...item}/>
             </Carousel.Slide>
         )
     });
-
 
     return <Carousel
         withIndicators height={600}
